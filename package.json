@@ -13,8 +13,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "set CI=true && react-scripts test",
+    "test:watch": "react-scripts test",
+    "test:coverage": "set CI=true && react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject"
+  },
+  "jest":{
+    "collectCoverageFrom": ["src/lib/**/*.{js,jsx}", "!**/node_modules/**"]
   },
   "eslintConfig": {
     "extends": "react-app"
