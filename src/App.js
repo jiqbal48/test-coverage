@@ -1,16 +1,14 @@
 import React from 'react';
-import g from '@vibrent/graph';
+import { HelloGraph } from '@vibrent/graph';
 import logo from './logo.svg';
 import './App.css';
 
 const Hello = () => <h1>hello mars!</h1>;
-console.log('helloGraph???', g.HelloGraph);
-const MyHelloGraph = g.HelloGraph;
 function App() {
   return (
     <div className="App">
       <Hello />
-      <MyHelloGraph />
+      <HelloGraph />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
