@@ -107,7 +107,7 @@ context('Files', () => {
       email: 'jane@example.com',
     })
 
-    cy.fixture('profile').should((profile) => {
+    cy.fixture('profiiile').should((profile) => {
       expect(profile.name).to.eq('Jane')
     })
   })

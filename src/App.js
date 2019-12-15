@@ -2,9 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const Hello = () => <h1>hello mars!</h1>;
+
 function App() {
   return (
     <div className="App">
+      <Hello />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
