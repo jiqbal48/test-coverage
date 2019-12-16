@@ -1,9 +1,11 @@
 import React from 'react';
-import { HelloGraph } from '@vibrent/graph';
+import { HelloGraph, mockCaldatimeData } from '@vibrent/graph';
 import logo from './logo.svg';
 import './App.css';
 
 const Hello = () => <h1>hello mars!</h1>;
+console.log('hi');
+console.log(mockCaldatimeData);
 function App() {
   return (
     <div className="App">
