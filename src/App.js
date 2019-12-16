@@ -1,16 +1,13 @@
 import React from 'react';
-import { HelloGraph, AppointmentDateAndTime as Caldatime, mockCaldatimeData as zeMock} from '@vibrent/graph';
+import { AppointmentDateAndTime as Caldatime, mockCaldatimeData as zeMock} from '@vibrent/graph';
 import logo from './logo.svg';
 import './App.css';
 
-const Hello = () => <h1>hello mars!</h1>;
 console.log('hi^^');
 console.log(zeMock);
 function App() {
   return (
     <div className="App">
-      <Hello />
-      <HelloGraph />
       <Caldatime caldatimeData={zeMock} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
