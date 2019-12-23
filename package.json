@@ -26,6 +26,10 @@
       "!**/node_modules/**"
     ]
   },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
